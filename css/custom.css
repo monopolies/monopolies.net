@@ -1,0 +1,307 @@
+/* TYPOGRAPHY --------------------------------------------------------------- */
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Nunito Regular'), local('Nunito-Regular'), url('Nunito-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Nunito Bold'), local('Nunito-Bold'), url('Nunito-Bold.ttf');
+}
+
+body {
+	font-family: 'Nunito', 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif;
+	font-weight: normal;
+	line-height: 170%;
+}
+
+.navbar-brand,
+h1,
+h2,
+h3 {
+	font-weight: bold;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+.container {
+    max-width: 100% !important;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.row {
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+
+
+
+
+/* COLOR -------------------------------------------------------------------- */
+
+.navbar,
+.jumbotron,
+footer {
+	background-color: #000 !important;
+	color: #fff;
+	border-radius: 0;
+}
+
+
+
+
+
+/* BUTTONS ------------------------------------------------------------------ */
+
+.btn-primary {
+	color: #45b086;
+	border: 4px #45b086 solid !important;
+	background: transparent;
+	font-weight: bold;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	color: #fff;
+	background: #45b086;
+}
+
+
+
+
+
+/* LINKS -------------------------------------------------------------------- */
+
+a {
+	text-decoration: none !important;
+	outline: none !important;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:active {
+    color: rgba(255,255,255,1);
+}
+
+section header h2,
+section header p,
+section a h3,
+section a p {
+	color: #fff;
+	/* better readability on bright background */
+	text-shadow: 0 0 2px rgba(10, 30, 20, .4);
+}
+section a:hover h3,
+section a:hover p,
+section a:focus h3,
+section a:focus p,
+section a:active h3,
+section a:active p {
+	color: #eee;
+}
+
+footer a {
+	color: #fff !important;
+	font-weight: bold;
+}
+footer a:hover,
+footer a:focus,
+footer a:active {
+	opacity: .8;
+}
+
+
+
+
+
+/* HOVER/FOCUS EFFECT ------------------------------------------------------- */
+
+section:not(#articles) a:hover::after,
+section:not(#articles) a:focus::after,
+section:not(#articles) a:active::after {
+    content: url('../img/highlight.svg');
+    position: absolute;
+	top: -3px;
+	left: calc(50% - 128px);
+}
+
+.nav-item,
+.navbar-brand,
+.navbar-toggler {
+	position: relative;
+}
+
+.nav-link:focus::before,
+.nav-link:hover::before,
+.nav-link:active::before,
+.navbar-brand:focus::before,
+.navbar-brand:hover::before,
+.navbar-brand:active::before,
+.navbar-toggler:focus::before,
+.navbar-toggler:hover::before {
+	content: url('../img/highlight-white-small-left.svg');
+	position: absolute;
+	top: 2px;
+	left: -10px;
+}
+
+.nav-link:focus::after,
+.nav-link:hover::after,
+.nav-link:active::after,
+.navbar-brand:focus::after,
+.navbar-brand:hover::after,
+.navbar-brand:active::after,
+.navbar-toggler:focus::after,
+.navbar-toggler:hover::after {
+	content: url('../img/highlight-white-small-right.svg');
+	position: absolute;
+	top: 2px;
+	right: -8px;
+}
+
+/* Special case for the logo */
+.navbar-brand:focus::before,
+.navbar-brand:hover::before,
+.navbar-brand:active::before {
+	left: -25px;
+}
+.navbar-brand:focus::after,
+.navbar-brand:hover::after,
+.navbar-brand:active::after {
+	right: -20px;
+}
+
+/* Special case for the mobile nav entries */
+.navbar-collapse.show .mr-auto .nav-link:focus::before,
+.navbar-collapse.show .mr-auto .nav-link:hover::before,
+.navbar-collapse.show .mr-auto .nav-link:active::before {
+	left: -20px;
+}
+.navbar-collapse.show .mr-auto .nav-link:focus::after,
+.navbar-collapse.show .mr-auto .nav-link:hover::after,
+.navbar-collapse.show .mr-auto .nav-link:active::after {
+	left: 65px;
+}
+
+
+
+
+
+/* HEADER ------------------------------------------------------------------- */
+
+.navbar-brand img {
+	height: 32px;
+	vertical-align: text-bottom;
+}
+
+/* Icons for Twitter, GitHub, IRC */
+.nav-link img {
+    width: 1rem;
+    height: 1rem;
+	opacity: .6;
+}
+.nav-link:hover img,
+.nav-link:focus img {
+	opacity: 1;
+}
+
+/* Toggle icon on mobile */
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+	border: none;
+	outline: none !important;
+}
+
+
+
+
+
+/* CONTENT ------------------------------------------------------------------ */
+
+h1 {
+	font-size: 80px;
+}
+
+section {
+	padding-top: 32px;
+}
+
+h2 {
+	display: inline-block;
+	color: #fff !important;
+	text-align: center;
+}
+
+h2 img {
+	width: 400px;
+	max-width: 80%;
+}
+
+[class^='col-md-'], [class*=' col-md-'] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+	position: relative;
+	height: 100px;
+}
+
+.text-center .col-md-4 p {
+	text-align: center;
+}
+
+.container .row img {
+	width: 100px;
+	max-height: 100px;
+	position: absolute;
+	bottom: 12px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+/* LOGO --------------------------------------------------------------------- */
+
+.jumbotron img {
+    margin: 60px 0 10px 0;
+}
+
+
+/* FOOTER ------------------------------------------------------------------- */
+
+footer {
+	padding: 2rem 0;
+}
+
+
+/* LOGO COLORS -------------------------------------------------------------- */
+
+
+#google {
+	background-color: #ea4335;
+}
+
+#facebook {
+	background-color: #3b5998;
+}
+
+#amazon {
+	background-color: #ff9900;
+}
+
+#microsoft {
+	background-color: #00a4ef;
+}

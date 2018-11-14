@@ -1,0 +1,23 @@
+	Google	Facebook	Apple	Microsoft	Amazon	Twitter	Yahoo	eBay	Dropbox	LinkedIn	Github
+Identity	+	Facebook	Apple ID	Live ID	Amazon	Twitter	Yahoo ID		Dropbox	LinkedIn	Github	Opera ID		Firefox Accounts
+Communication	+, Mail, Hangouts	Facebook	iMessage	Skype, Hotmail, MSN		Twitter	Yahoo Mail		Mailbox	Linkedin				Mailpile, Diaspora
+Storage	Drive		iCloud	OneDrive	S3				Dropbox					ownCloud, remoteStorage
+Collaboration	Docs		Pages						Hackpad		Github			Etherpad
+Apps & Games	Play, Webstore	Facebook Apps	App store	Marketplace	AWS Store?	Twitter API			Dropbox apps					Firefox Marketplace
+Photos	+, Picasa	Instagram	iPhoto			Twitpic	Flickr		Carousel, Loom			500px		Mediagoblin, OpenPhoto
+Music	Play Music		iTunes		Cloud Player				Audiogalaxy			Spotify		Youtify
+Reading	Play Books		iBooks						Readmill			Pocket, Instapaper		Wallabag
+Search	Search			Bing	Amazon products	Twitter search	Yahoo							(DuckDuckGo)
+Money	Wallet		iTunes					PayPal				Simple, Square		Bitcoin
+Location	Latitude	Places				Twitter						Foursquare
+
+Browser	Chrome		Safari	Internet Explorer								Opera		Firefox
+OS	ChromeOS		OS X	Windows										Ubuntu, Debian, …
+Hardware	Chromebook		Macbook, iMac	Dell, …	Kindle									System76, …
+Mobile OS	Android		iOS	Windows Phone	Kindle/Android									(Android), Firefox OS
+Mobile HW	Nexus		iPhone, iPad	Nokia	Kindle, Kindle Fire
+Entertainment	Nexus Q, Chromecast	Oculus	Apple TV	Xbox								Steam		XBMC
+Infrastructure	Fiber													Freifunk
+
+http://www.ustream.tv/ belongs to IBM
+Gitter bought by GitLab
