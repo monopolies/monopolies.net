@@ -126,13 +126,49 @@ footer a:active {
 
 /* HOVER/FOCUS EFFECT ------------------------------------------------------- */
 
-section:not(#articles) a:hover::after,
-section:not(#articles) a:focus::after,
-section:not(#articles) a:active::after {
-    content: url('../img/highlight.svg');
-    position: absolute;
-	top: -3px;
-	left: calc(50% - 128px);
+.slogan-real {
+	display: none;
+}
+section header:hover .slogan,
+section header:focus .slogan,
+section header:active .slogan {
+	display: none;
+}
+section header:hover .slogan-real,
+section header:focus .slogan-real,
+section header:active .slogan-real {
+	display: inline-block;
+}
+
+
+h2 {
+	position: relative;
+}
+
+h2 a {
+	display: inline-block;
+}
+
+h2 a:hover::after,
+h2 a:focus::after,
+h2 a:active::after {
+	content: "-";
+	position: absolute;
+	line-height: 15px;
+	left: calc(50% - 155px);
+	font-size: 700px;
+	color: #000;
+}
+
+section:not(#articles) .row a:hover::after,
+section:not(#articles) .row a:focus::after,
+section:not(#articles) .row a:active::after {
+	content: "-";
+	position: absolute;
+	top: 18px;
+	left: calc(50% - 105px);
+	font-size: 500px;
+	color: #000;
 }
 
 .nav-item,
