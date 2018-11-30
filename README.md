@@ -30,4 +30,4 @@ And that’s it! 🎉 Contributing to other open source projects is very similar
 
 - **🔀 You can use & modify everything as long as you credit [Digital Monopolies](https://monopolies.net) and use the same license for your resulting work.** [Code license is AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) and content is [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/).
 - 📄 [Nunito typeface](https://github.com/vernnobile/NunitoFont) by [Vernon Adams](http://sansoxygen.com)
-- 🕸 [Network icon](https://thenounproject.com/term/network/21266/) by [Brennan Novak]()
+- 🕸 [Network icon](https://thenounproject.com/term/network/21266/) by [Brennan Novak](https://brennannovak.com)

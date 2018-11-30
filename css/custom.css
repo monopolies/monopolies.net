@@ -144,31 +144,32 @@ section header:active .slogan-real {
 h2 {
 	position: relative;
 }
-
 h2 a {
 	display: inline-block;
 }
 
-h2 a:hover::after,
-h2 a:focus::after,
-h2 a:active::after {
-	content: "-";
-	position: absolute;
-	line-height: 15px;
-	left: calc(50% - 155px);
-	font-size: 700px;
-	color: #000;
-}
-
+/* Hover effect on main company logo */
+header:hover h2 a::after,
+header:focus h2 a::after,
+header:active h2 a::after,
 section:not(#articles) .row a:hover::after,
 section:not(#articles) .row a:focus::after,
 section:not(#articles) .row a:active::after {
-	content: "-";
+	content: "/";
 	position: absolute;
-	top: 18px;
-	left: calc(50% - 105px);
-	font-size: 500px;
+	line-height: calc(50% - 48px);
+	left: calc(50% - 45px);
+	font-size: 300px;
 	color: #000;
+	z-index: 10;
+}
+/* Hover effect on smaller subcompanies */
+section:not(#articles) .row a:hover::after,
+section:not(#articles) .row a:focus::after,
+section:not(#articles) .row a:active::after {
+	top: calc(50% - 14px) !important;
+	left: calc(50% - 25px) !important;
+	font-size: 200px !important;
 }
 
 .nav-item,
