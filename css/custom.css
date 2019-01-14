@@ -100,6 +100,7 @@ section a p {
 	color: #fff;
 	/* better readability on bright background */
 	text-shadow: 0 0 2px rgba(10, 30, 20, .4);
+	margin-top: 10px;
 }
 section a:hover h3,
 section a:hover p,
@@ -128,6 +129,7 @@ footer a:active {
 
 .slogan-real {
 	display: none;
+	font-weight: bold;
 }
 section header:hover .slogan,
 section header:focus .slogan,
@@ -139,7 +141,6 @@ section header:focus .slogan-real,
 section header:active .slogan-real {
 	display: inline-block;
 }
-
 
 h2 {
 	position: relative;
@@ -155,21 +156,23 @@ header:active h2 a::after,
 section:not(#articles) .row a:hover::after,
 section:not(#articles) .row a:focus::after,
 section:not(#articles) .row a:active::after {
-	content: "/";
+	content: "x";
 	position: absolute;
+	top: calc(50% - 50px) !important;
 	line-height: calc(50% - 48px);
-	left: calc(50% - 45px);
-	font-size: 300px;
+	left: calc(50% - 60px);
+	font-size: 215px;
 	color: #000;
 	z-index: 10;
+	font-weight: normal;
 }
 /* Hover effect on smaller subcompanies */
 section:not(#articles) .row a:hover::after,
 section:not(#articles) .row a:focus::after,
 section:not(#articles) .row a:active::after {
-	top: calc(50% - 14px) !important;
-	left: calc(50% - 25px) !important;
-	font-size: 200px !important;
+	top: calc(50% - 40px) !important;
+	left: calc(50% - 40px) !important;
+	font-size: 150px !important;
 }
 
 .nav-item,
