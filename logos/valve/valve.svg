@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 436 121.06" data-name="Layer 1" id="Layer_1">
+  <metadata id="metadata16">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs3"/>
+  <polygon transition="fill 500ms linear" style="fill:#f74843" id="polygon8" points="151.01,67.88 142.57,36.95 142.57,36.95 134.84,67.88 " class="cls-2"/>
+  <g id="g10" class="cls-3">
+    <path style="fill:#f74843" transition="fill 500ms linear" id="path12" d="M 47.1,24.6 61.2,79.9 75,24.6 l 15.2,0 -22.3,73.2 -13.4,0 -21.8,-73.2 14.4,0 z m 85.3,0 19.7,0 20.8,73.3 -14.8,0 -4.9,-18.3 -21.9,0 c 0,0 -3.8,14.7 -4.6,18 -4.4,0.3 -15.1,0 -15.1,0 l 20.8,-73 z m 76,0 14.4,0 0,60.9 30.7,0 0,12.3 -45.1,0 0,-73.2 z m 77.5,0 14.1,54.6 13.7,-54.6 14.8,0 -22.2,73.3 -13,0 -22.2,-73.3 14.8,0 z m 103.6,0 0,9.5 -19.7,0 0,10.6 18,0 0,9.5 -18,0 0,10.9 19.7,0 0,9.5 -30.7,0 0,-50 30.7,0 z M 0,123.2 l 436,0 0,-124.3 -436,0" class="cls-2"/>
+  </g>
+</svg>
