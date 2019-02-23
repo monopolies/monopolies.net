@@ -57,6 +57,7 @@ And that’s it! 🎉 Contributing to other open source projects is very similar
 - Natasha Lomas, ["German antitrust office limits Facebook’s data gathering."](https://techcrunch.com/2019/02/07/german-antitrust-office-limits-facebooks-data-gathering/) TechCrunch, 7 February 2019.
 - Mike Isaac, ["Zuckerberg Plans to Integrate WhatsApp, Instagram and Facebook Messenger."](https://www.nytimes.com/2019/01/25/technology/facebook-instagram-whatsapp-messenger.html) New York Times, 25 January 2019.
 - Shoshana Zuboff, ["The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power."](https://www.shoshanazuboff.com/new/) PublicAffairs, 15 January 2019.
+- Nick Routley, ["The 20 Internet Giants That Rule the Web (1998-Today)."](https://www.visualcapitalist.com/20-internet-giants-rule-web/) Visual Capitalist, 5 January 2019.
 
 ### 2018
 - Paris Martineau & Louise Matsakis, ["Why It's Hard to Escape Amazon's Long Reach."](https://www.wired.com/story/why-hard-escape-amazons-long-reach/) Wired, 23 December 2018.
@@ -87,6 +88,7 @@ New York Times, 10 May 2017.
 - Chen Xinlei, ["China's digital monopolies are killing competition."](https://www.businessinsider.com/chinas-digital-monopolies-are-killing-competition-2015-8) Business Insider, 18 August 2015.
 
 ### 2014
+- Philip Bump, ["From Lycos to Ask Jeeves to Facebook: Tracking the 20 most popular web sites every year since 1996."](https://www.washingtonpost.com/news/the-intersect/wp/2014/12/15/from-lycos-to-ask-jeeves-to-facebook-tracking-the-20-most-popular-web-sites-every-year-since-1996/) Washington Post, 15 December 2014.
 - ["Internet monopolies: Everybody wants to rule the world."](https://www.economist.com/briefing/2014/11/27/everybody-wants-to-rule-the-world) The Economist, 27 November 2014.
 - Sam Schechner, ["Europe Targets U.S. Web Firms – French, German Officials Call for Greater Power to Regulate Internet Companies."](https://www.wsj.com/articles/french-german-officials-call-for-fresh-look-at-internet-giants-1417110508) Wall Street Journal, 27 November 2014.
 
