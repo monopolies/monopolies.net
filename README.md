@@ -67,6 +67,8 @@ And that’s it! 🎉 Contributing to other open source projects is very similar
 - Christina Farr, ["I quit Instagram and Facebook and it made me a lot happier — and that's a big problem for social media companies."](https://www.cnbc.com/2018/12/01/social-media-detox-christina-farr-quits-instagram-facebook.html) CNBC, 1 December 2018.
 - ["Most Americans aren't aware that Facebook owns WhatsApp, or that Google owns Waze."](https://spreadprivacy.com/facebook-whatsapp/) DuckDuckGo, 16 October 2018.
 - Nilay Patel, ["It’s time to break up Facebook."](https://www.theverge.com/2018/9/4/17816572/tim-wu-facebook-regulation-interview-curse-of-bigness-antitrust) The Verge, 4 September 2018.
+- Erik Rood, ["Interconnectedness of companies through shared board members."](https://www.interviewqs.com/blog/board_members) Data Interview Questions, July 2018.
+- Mitch Stoltz, Corynne McSherry, Cindy Cohn & Danny O'Brien, ["Competition, Civil Liberties, and the Internet Giants."](https://www.eff.org/deeplinks/2018/06/competition-civil-liberties-and-internet-giants) Electronic Frontier Foundation, 27 June 2018.
 - Steve Kroft, ["How did Google get so big?"](https://www.cbsnews.com/news/how-did-google-get-so-big/) CBS News, 21 May 2018.
 - Robert Reich, ["The Monopolization of America: The Biggest Economic Problem You’re Hearing Almost Nothing About."](http://robertreich.org/post/173655842990) Inequality Media, 6 May 2018.
 - Katharina Nocun, ["Die Daten, die ich rief – Wie wir unsere Freiheit an Großkonzerne verkaufen." (German)](https://www.luebbe.de/bastei-luebbe/buecher/politik-und-gesellschaft/die-daten-die-ich-rief/id_6549526) Bastei Lübbe, 27 April 2018.
