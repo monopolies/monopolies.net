@@ -58,6 +58,7 @@ And that’s it! 🎉 Contributing to other open source projects is very similar
 - Mike Isaac, ["Zuckerberg Plans to Integrate WhatsApp, Instagram and Facebook Messenger."](https://www.nytimes.com/2019/01/25/technology/facebook-instagram-whatsapp-messenger.html) New York Times, 25 January 2019.
 - Shoshana Zuboff, ["The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power."](https://www.shoshanazuboff.com/new/) PublicAffairs, 15 January 2019.
 - Nick Routley, ["The 20 Internet Giants That Rule the Web (1998-Today)."](https://www.visualcapitalist.com/20-internet-giants-rule-web/) Visual Capitalist, 5 January 2019.
+ - European Commission report on its competition policy http://ec.europa.eu/competition/publications/reports/kd0419345enn.pdf
 
 ### 2018
 - Paris Martineau & Louise Matsakis, ["Why It's Hard to Escape Amazon's Long Reach."](https://www.wired.com/story/why-hard-escape-amazons-long-reach/) Wired, 23 December 2018.
