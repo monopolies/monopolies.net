@@ -53,6 +53,7 @@ And that’s it! 🎉 Contributing to other open source projects is very similar
 ## Publications
 
 ### 2019
+- Cory Doctorow, ["It's monopolies, not surveillance."](https://19.re-publica.com/en/session/its-monopolies-not-surveillance) re:publica, 7 May 2019.
 - Kashmir Hill, ["I Cut the 'Big Five' Tech Giants From My Life. It Was Hell."](https://gizmodo.com/i-cut-the-big-five-tech-giants-from-my-life-it-was-hel-1831304194) Gizmodo, 7 February 2019.
 - Natasha Lomas, ["German antitrust office limits Facebook’s data gathering."](https://techcrunch.com/2019/02/07/german-antitrust-office-limits-facebooks-data-gathering/) TechCrunch, 7 February 2019.
 - Mike Isaac, ["Zuckerberg Plans to Integrate WhatsApp, Instagram and Facebook Messenger."](https://www.nytimes.com/2019/01/25/technology/facebook-instagram-whatsapp-messenger.html) New York Times, 25 January 2019.
