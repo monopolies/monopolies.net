@@ -38,6 +38,7 @@ And that’s it! 🎉 Contributing to other open source projects is very similar
 
 ## Related projects
 - [Terms of Service; Didn’t Read](https://tosdr.org)
+- [Ranking Digital Rights](https://rankingdigitalrights.org)
 - [AccountKiller](https://www.accountkiller.com)
 - [Data Detox](https://datadetox.myshadow.org)
 - [EFF](https://www.eff.org)
