@@ -72,6 +72,7 @@ And that’s it! 🎉 Contributing to other open source projects is very similar
 - Nilay Patel, ["It’s time to break up Facebook."](https://www.theverge.com/2018/9/4/17816572/tim-wu-facebook-regulation-interview-curse-of-bigness-antitrust) The Verge, 4 September 2018.
 - Erik Rood, ["Interconnectedness of companies through shared board members."](https://www.interviewqs.com/blog/board_members) Data Interview Questions, July 2018.
 - Mitch Stoltz, Corynne McSherry, Cindy Cohn & Danny O'Brien, ["Competition, Civil Liberties, and the Internet Giants."](https://www.eff.org/deeplinks/2018/06/competition-civil-liberties-and-internet-giants) Electronic Frontier Foundation, 27 June 2018.
+- Jon Brodkin, ["What to expect now that AT&T officially owns Time Warner."](https://arstechnica.com/information-technology/2018/06/what-to-expect-now-that-att-officially-owns-time-warner/) Ars Technica, 15 June 2018.
 - Steve Kroft, ["How did Google get so big?"](https://www.cbsnews.com/news/how-did-google-get-so-big/) CBS News, 21 May 2018.
 - Robert Reich, ["The Monopolization of America: The Biggest Economic Problem You’re Hearing Almost Nothing About."](http://robertreich.org/post/173655842990) Inequality Media, 6 May 2018.
 - Katharina Nocun, ["Die Daten, die ich rief – Wie wir unsere Freiheit an Großkonzerne verkaufen." (German)](https://www.luebbe.de/bastei-luebbe/buecher/politik-und-gesellschaft/die-daten-die-ich-rief/id_6549526) Bastei Lübbe, 27 April 2018.
