@@ -1,0 +1,49 @@
+{
+  "companies": [
+    {
+      "id": "meta",
+      "name": "Meta",
+      "type": "parent",
+      "description": "...",
+      "subsidiaries": [
+        {
+          "id": "facebook",
+          "name": "Facebook",
+          "relationship": "subsidiary",
+          "acquired_date": "...",
+          "description": "..."
+        },
+                {
+          "id": "instagram",
+          "name": "Instagram",
+          "relationship": "subsidiary",
+          "acquired_date": "...",
+          "description": "..."
+        },
+                {
+          "id": "whatsapp",
+          "name": "Whatsapp",
+          "relationship": "subsidiary",
+          "acquired_date": "...",
+          "description": "..."
+        },
+        {
+          "id": "scaleai",
+          "name": "Sacle AI",
+          "relationship": "subsidiary",
+          "acquired_date": "...",
+          "description": "..."
+        }
+      ],
+      "sphere_of_influence": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic",
+          "relationship": "investment",
+          "investment_details": "...",
+          "description": "..."
+        }
+      ]
+    }
+  ]
+}

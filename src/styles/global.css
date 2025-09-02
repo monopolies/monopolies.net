@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@import "./typography.css";
+
+html{
+  --background: #0d1117;  /* Darker deep blue-gray background */
+  --foreground: #f0f4f8;  /* Light blue-white text */
+  --muted-background: #2d3748;
+  --accent: #ff89b0;      /* Vibrant pink accent (complementary to light theme's pink) */
+  --muted: #95999E;
+  --border: #3d4a63;      /* Medium blue-gray for borders */
+  --accent-alt: #24837B;
+} 
+
+@theme {
+  --font-sans: 'Inter Variable', 'sans-serif';
+  --font-mono: 'Roboto Mono Variable', monospace;
+  --font-headers: 'Rubik Variable', 'sans-serif';
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted-background: var(--muted-background);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+}
+
+@layer base {
+  html {
+    @apply overflow-y-scroll scroll-smooth;
+  }
+  body {
+    @apply flex min-h-svh flex-col bg-background font-sans text-foreground selection:bg-accent/75 selection:text-background;
+  }
+  a,
+  button {
+    @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  section,
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headers;
+  }
+
+  h1{
+    @apply font-semibold tracking-wider leading-12 text-3xl;
+  }
+
+  h2{
+    @apply font-bold tracking-wide;
+  }
+}
+
+a{
+  @apply !font-normal;
+}
+
+p{
+  @apply font-normal;
+}
+
+.prose{
+  @apply text-base/6 sm:text-lg/7 ;
+}
+
+.prose p{
+  @apply mb-0 font-normal;
+}
+
+
+

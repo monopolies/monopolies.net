@@ -1,3 +1,23 @@
+---
+import "@/styles/global.css";
+import { SITE } from "@/config";
+
+export interface Props {
+  title?: string;
+  author?: string;
+  profile?: string;
+  description?: string;
+}
+
+const {
+  title = SITE.title,
+  author = SITE.author,
+  profile = SITE.profile,
+  description = SITE.desc,
+} = Astro.props;
+
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,18 +25,15 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+
+		<title>{title}</title>
+		<meta name="title" content={title} />
+		<meta name="description" content={description} />
+		<meta name="author" content={author} />
 	</head>
-	<body>
+	<body class="h-screen">
 		<slot />
 	</body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+
