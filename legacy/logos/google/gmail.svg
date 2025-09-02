@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 48 36"
+   overflow="scroll"
+   xml:space="preserve"
+   sodipodi:docname="Gmail_Icon.svg"
+   width="48"
+   height="36"
+   style="overflow:scroll"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata37"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs35" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1046"
+   id="namedview33"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="5.2149125"
+   inkscape:cx="12.946398"
+   inkscape:cy="-7.8572807"
+   inkscape:window-x="0"
+   inkscape:window-y="34"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+
+<path
+   d="M 3,0 C 1.343,0 0,1.343 0,3 v 30 c 0,1.657 1.343,3 3,3 h 3 39 c 1.657,0 3,-1.343 3,-3 V 3 C 48,1.343 46.657,0 45,0 Z m 3.724609,2 h 34.550782 l -17.273438,12.576172 -0.002,0.002 -0.002,-0.002 z M 6,8.894531 18.996094,18.357422 6,27.457031 Z m 36,0.002 v 18.5605 L 29.003906,18.357422 Z M 20.707031,19.601562 24,22 27.292969,19.601562 42,29.898438 V 34 H 6 v -4.101562 z"
+   id="path4"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff;fill-opacity:1;stroke:none" />
+
+
+
+
+
+
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="14.0005"
+   y1="30.743601"
+   x2="32"
+   y2="30.743601">
+	<stop
+   offset="0"
+   style="stop-color:#C8C8C8"
+   id="stop18" />
+	<stop
+   offset="1"
+   style="stop-color:#CDCDCD"
+   id="stop20" />
+</linearGradient>
+
+<linearGradient
+   id="SVGID_2_"
+   gradientUnits="userSpaceOnUse"
+   x1="28.664499"
+   y1="36.447399"
+   x2="50"
+   y2="36.447399">
+	<stop
+   offset="0"
+   style="stop-color:#D9D9D9"
+   id="stop25" />
+	<stop
+   offset="1"
+   style="stop-color:#E2E2E2"
+   id="stop27" />
+</linearGradient>
+
+</svg>
