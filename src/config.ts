@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://monopolies.net/", // replace this with your deployed domain
   author: "Data Rights",
   profile: "https://monopolies.net/",
-  desc: "Know which brands belong to big companies, and who owns your digital life.",
+  description: "Know which brands belong to big companies, and who owns your digital life.",
   title: "Digital Monopolies",
   //ogImage: "favicon.svg",
   lightAndDarkMode: false,

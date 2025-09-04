@@ -1,0 +1,22 @@
+id,name,big_tech,description,service,acquisition_date,parent,relationship,influence_zone,location
+meta,Meta,TRUE,,,,,,0,US
+instagram,Instagram,FALSE,,Social media,,meta,subsidiary,1,
+whatsapp,Whatsapp,FALSE,,Messaging app,,meta,subsidiary,1,
+facebook,Facebook,FALSE,,Social media,,meta,subsidiary,1,
+scaleai,Scale AI,FALSE,,Data labelling,,meta,subsidiary,1,
+anthropic,Anthropic,FALSE,,AI,,meta,investment,2,
+alphabet,Alphabet,TRUE,,,,,,0,US
+google_search,Google Search,FALSE,,Search engine,,google,product,1,
+google_drive,Google Drive,FALSE,,Cloud storage,,google,product,1,
+android,Android,FALSE,,Operating System,,google,product,1,
+youtube,Youtube,FALSE,,Video platform,,google,subsidiary,1,
+gemini,Gemini,FALSE,,AI,,google,product,1,
+google_maps,Google Maps,FALSE,,Maps,,google,product,1,
+waymo,Waymo,FALSE,,Self-driving cars,,google,subsidiary,1,
+google_fiber,Google Fiber,FALSE,,Internet,,google,subsidiary,1,
+nest,Nest,FALSE,,Smart appliances,,google,subsidiary,1,
+calico,Calico,FALSE,,Biotechnology,,google,subsidiary,1,
+uber,Uber,FALSE,,Taxi service,,google,investment,2,
+medium,Medium,FALSE,,Publishing platform,,google,investment,2,
+united_masters,UniiedMasters,FALSE,,Music distribution,,google,investment,2,
+adsense,AdSense,FALSE,,Advertising,,google,subsidiary,1,

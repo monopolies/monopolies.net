@@ -5,10 +5,11 @@ html{
   --background: #0d1117;  /* Darker deep blue-gray background */
   --foreground: #f0f4f8;  /* Light blue-white text */
   --muted-background: #2d3748;
-  --accent: #ff89b0;      /* Vibrant pink accent (complementary to light theme's pink) */
-  --muted: #95999E;
-  --border: #3d4a63;      /* Medium blue-gray for borders */
-  --accent-alt: #24837B;
+  --meta: #1877F2;
+  --alphabet: #EA4335;
+  --amazon: #FF9900;
+  --apple: #A2AAAD;
+  --microsoft: #7FBA00;
 } 
 
 @theme {
@@ -24,7 +25,11 @@ html{
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-border: var(--border);
+  --color-meta: var(--meta);
+  --color-alphabet: var(--alphabet);
 }
+
+@source inline('bg-{meta,alphabet,apple,microsoft,amazon}');
 
 @layer base {
   html {
@@ -48,7 +53,7 @@ html{
   }
 
   h1{
-    @apply font-semibold tracking-wider leading-12 text-3xl;
+    @apply font-semibold tracking-wider text-7xl/27;
   }
 
   h2{

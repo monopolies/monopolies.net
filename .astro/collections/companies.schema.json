@@ -1,0 +1,53 @@
+{
+  "$ref": "#/definitions/companies",
+  "definitions": {
+    "companies": {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "big_tech": {
+            "type": "boolean",
+            "default": false
+          },
+          "description": {
+            "type": "string"
+          },
+          "service": {
+            "type": "string"
+          },
+          "acquisition_date": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          },
+          "influence_zone": {
+            "type": "number"
+          },
+          "location": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "service"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

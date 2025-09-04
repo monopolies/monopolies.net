@@ -1,49 +1,254 @@
-{
-  "companies": [
-    {
-      "id": "meta",
-      "name": "Meta",
-      "type": "parent",
-      "description": "...",
-      "subsidiaries": [
-        {
-          "id": "facebook",
-          "name": "Facebook",
-          "relationship": "subsidiary",
-          "acquired_date": "...",
-          "description": "..."
-        },
-                {
-          "id": "instagram",
-          "name": "Instagram",
-          "relationship": "subsidiary",
-          "acquired_date": "...",
-          "description": "..."
-        },
-                {
-          "id": "whatsapp",
-          "name": "Whatsapp",
-          "relationship": "subsidiary",
-          "acquired_date": "...",
-          "description": "..."
-        },
-        {
-          "id": "scaleai",
-          "name": "Sacle AI",
-          "relationship": "subsidiary",
-          "acquired_date": "...",
-          "description": "..."
-        }
-      ],
-      "sphere_of_influence": [
-        {
-          "id": "anthropic",
-          "name": "Anthropic",
-          "relationship": "investment",
-          "investment_details": "...",
-          "description": "..."
-        }
-      ]
-    }
-  ]
-}
+[
+ {
+   "id": "meta",
+   "name": "Meta",
+   "big_tech": true,
+   "description": "",
+   "service": "",
+   "acquisition_date": "",
+   "parent": "",
+   "relationship": "",
+   "influence_zone": 0,
+   "location": "US"
+ },
+ {
+   "id": "instagram",
+   "name": "Instagram",
+   "big_tech": false,
+   "description": "",
+   "service": "Social media",
+   "acquisition_date": "",
+   "parent": "meta",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "whatsapp",
+   "name": "Whatsapp",
+   "big_tech": false,
+   "description": "",
+   "service": "Messaging app",
+   "acquisition_date": "",
+   "parent": "meta",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "facebook",
+   "name": "Facebook",
+   "big_tech": false,
+   "description": "",
+   "service": "Social media",
+   "acquisition_date": "",
+   "parent": "meta",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "scaleai",
+   "name": "Scale AI",
+   "big_tech": false,
+   "description": "",
+   "service": "Data labelling",
+   "acquisition_date": "",
+   "parent": "meta",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "big_tech": false,
+   "description": "",
+   "service": "AI",
+   "acquisition_date": "",
+   "parent": "meta",
+   "relationship": "investment",
+   "influence_zone": 2,
+   "location": ""
+ },
+ {
+   "id": "alphabet",
+   "name": "Alphabet",
+   "big_tech": true,
+   "description": "",
+   "service": "",
+   "acquisition_date": "",
+   "parent": "",
+   "relationship": "",
+   "influence_zone": 0,
+   "location": "US"
+ },
+ {
+   "id": "google_search",
+   "name": "Google Search",
+   "big_tech": false,
+   "description": "",
+   "service": "Search engine",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "product",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "google_drive",
+   "name": "Google Drive",
+   "big_tech": false,
+   "description": "",
+   "service": "Cloud storage",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "product",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "android",
+   "name": "Android",
+   "big_tech": false,
+   "description": "",
+   "service": "Operating System",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "product",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "youtube",
+   "name": "Youtube",
+   "big_tech": false,
+   "description": "",
+   "service": "Video platform",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "gemini",
+   "name": "Gemini",
+   "big_tech": false,
+   "description": "",
+   "service": "AI",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "product",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "google_maps",
+   "name": "Google Maps",
+   "big_tech": false,
+   "description": "",
+   "service": "Maps",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "product",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "waymo",
+   "name": "Waymo",
+   "big_tech": false,
+   "description": "",
+   "service": "Self-driving cars",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "google_fiber",
+   "name": "Google Fiber",
+   "big_tech": false,
+   "description": "",
+   "service": "Internet",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "nest",
+   "name": "Nest",
+   "big_tech": false,
+   "description": "",
+   "service": "Smart appliances",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "calico",
+   "name": "Calico",
+   "big_tech": false,
+   "description": "",
+   "service": "Biotechnology",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ },
+ {
+   "id": "uber",
+   "name": "Uber",
+   "big_tech": false,
+   "description": "",
+   "service": "Taxi service",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "investment",
+   "influence_zone": 2,
+   "location": ""
+ },
+ {
+   "id": "medium",
+   "name": "Medium",
+   "big_tech": false,
+   "description": "",
+   "service": "Publishing platform",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "investment",
+   "influence_zone": 2,
+   "location": ""
+ },
+ {
+   "id": "united_masters",
+   "name": "UniiedMasters",
+   "big_tech": false,
+   "description": "",
+   "service": "Music distribution",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "investment",
+   "influence_zone": 2,
+   "location": ""
+ },
+ {
+   "id": "adsense",
+   "name": "AdSense",
+   "big_tech": false,
+   "description": "",
+   "service": "Advertising",
+   "acquisition_date": "",
+   "parent": "google",
+   "relationship": "subsidiary",
+   "influence_zone": 1,
+   "location": ""
+ }
+]

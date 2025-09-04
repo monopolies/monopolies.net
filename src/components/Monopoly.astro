@@ -1,16 +1,22 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import { SITE } from "@/config";
+
+export interface Props extends CollectionEntry<"companies">{};
+const { data } = Astro.props;
+
+const { id, name, description, location } = data;
 
 ---
 
 <div id="container">
 	<main>
-		<section id="hero" class="text-white bg-sky-800 h-screen text-center">
+		<section id="hero" class={`text-white h-screen text-center bg-${id}`}>
 			<h1>
-				Facebook
+				{name}
 			</h1>
 			<section id="home-description">
-				Know which brands belong to big companies, and who owns your digital life.
+				{description}
 			</section>
 		</section>
 	</main>
