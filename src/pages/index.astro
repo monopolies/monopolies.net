@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Monopoly from '../components/Monopoly.astro';
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import Layout from '../layouts/Layout.astro';
 
 const companies = await getCollection("companies");
@@ -14,4 +15,5 @@ const companies = await getCollection("companies");
 		.map(company => (
 		<Monopoly {...company} />
 	))}
+	<Footer />
 </Layout>
