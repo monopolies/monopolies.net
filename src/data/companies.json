@@ -72,6 +72,18 @@
    "location": ""
  },
  {
+   "id": "openai",
+   "name": "openAI",
+   "big_tech": false,
+   "description": "",
+   "service": "AI",
+   "acquisition_date": "",
+   "parent": "meta",
+   "relationship": "investment",
+   "influence_zone": 3,
+   "location": ""
+ },
+ {
    "id": "alphabet",
    "name": "Alphabet",
    "big_tech": true,
@@ -90,7 +102,7 @@
    "description": "",
    "service": "Search engine",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "product",
    "influence_zone": 1,
    "location": ""
@@ -102,7 +114,7 @@
    "description": "",
    "service": "Cloud storage",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "product",
    "influence_zone": 1,
    "location": ""
@@ -114,7 +126,7 @@
    "description": "",
    "service": "Operating System",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "product",
    "influence_zone": 1,
    "location": ""
@@ -126,7 +138,7 @@
    "description": "",
    "service": "Video platform",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "subsidiary",
    "influence_zone": 1,
    "location": ""
@@ -138,7 +150,7 @@
    "description": "",
    "service": "AI",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "product",
    "influence_zone": 1,
    "location": ""
@@ -150,7 +162,7 @@
    "description": "",
    "service": "Maps",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "product",
    "influence_zone": 1,
    "location": ""
@@ -162,7 +174,7 @@
    "description": "",
    "service": "Self-driving cars",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "subsidiary",
    "influence_zone": 1,
    "location": ""
@@ -174,7 +186,7 @@
    "description": "",
    "service": "Internet",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "subsidiary",
    "influence_zone": 1,
    "location": ""
@@ -186,7 +198,7 @@
    "description": "",
    "service": "Smart appliances",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "subsidiary",
    "influence_zone": 1,
    "location": ""
@@ -198,7 +210,7 @@
    "description": "",
    "service": "Biotechnology",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "subsidiary",
    "influence_zone": 1,
    "location": ""
@@ -210,7 +222,7 @@
    "description": "",
    "service": "Taxi service",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "investment",
    "influence_zone": 2,
    "location": ""
@@ -222,7 +234,7 @@
    "description": "",
    "service": "Publishing platform",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "investment",
    "influence_zone": 2,
    "location": ""
@@ -234,7 +246,7 @@
    "description": "",
    "service": "Music distribution",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "investment",
    "influence_zone": 2,
    "location": ""
@@ -246,7 +258,7 @@
    "description": "",
    "service": "Advertising",
    "acquisition_date": "",
-   "parent": "google",
+   "parent": "alphabet",
    "relationship": "subsidiary",
    "influence_zone": 1,
    "location": ""

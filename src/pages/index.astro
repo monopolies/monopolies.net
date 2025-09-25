@@ -5,15 +5,15 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Layout from '../layouts/Layout.astro';
 
-const companies = await getCollection("companies");
+const bigTech = (await getCollection('companies', ({ data }) => {
+  return data.big_tech;
+}));
 
 ---
 <Layout>
 	<Header />
-	 {companies
-		.filter(company => company.data.big_tech)
-		.map(company => (
-		<Monopoly {...company} />
+	 {bigTech.map(bigTech => (
+		<Monopoly {...bigTech}/>
 	))}
 	<Footer />
 </Layout>

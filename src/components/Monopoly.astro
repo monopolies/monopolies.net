@@ -1,24 +1,48 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { SITE } from "@/config";
+import { getCollection } from "astro:content";
+import Subsidiary from "../components/Subsidiary.astro";
 
 export interface Props extends CollectionEntry<"companies">{};
 const { data } = Astro.props;
-
 const { id, name, description, location } = data;
 
+const subsidiaries = (await getCollection('companies', ({ data }) => {
+  return data.parent == id;
+}));
+
+//console.log(subsidiaries.filter(subsidiary => subsidiary.data.influence_zone == 1).length)
+
 ---
-
-<div id="container">
-	<main>
-		<section id="hero" class={`text-white h-screen text-center bg-${id}`}>
-			<h1>
-				{name}
-			</h1>
-			<section id="home-description">
-				{description}
-			</section>
-		</section>
-	</main>
-
-</div>
+<section class={`monopoly-container bg-${id}`}>
+	<div class="monopoly-zone">
+		<div class="orbit orbit-3">
+			<div class="orbit orbit-2">
+				<div class="orbit orbit-1  ">
+					<div class="orbit-center "><h2>{name}</h2></div>
+					{subsidiaries.filter(subsidiary => subsidiary.data.influence_zone == 1).
+						map((subsidiary, index) => <Subsidiary 
+							{...subsidiary} index={index} 
+							numberOfSubsidiaries={subsidiaries.filter(subsidiaryCount => subsidiaryCount.data.influence_zone == 1).length} 
+							orbit={subsidiary.data.influence_zone}/>
+						)
+					}
+					{subsidiaries.filter(subsidiary => subsidiary.data.influence_zone == 2).
+						map((subsidiary, index) => <Subsidiary 
+							{...subsidiary} index={index} 
+							numberOfSubsidiaries={subsidiaries.filter(subsidiaryCount => subsidiaryCount.data.influence_zone == 2).length} 
+							orbit={subsidiary.data.influence_zone}/>
+						)
+					}
+					{subsidiaries.filter(subsidiary => subsidiary.data.influence_zone == 3).
+						map((subsidiary, index) => <Subsidiary 
+							{...subsidiary} index={index} 
+							numberOfSubsidiaries={subsidiaries.filter(subsidiaryCount => subsidiaryCount.data.influence_zone == 2).length} 
+							orbit={subsidiary.data.influence_zone}/>
+						)
+					}
+				</div>	
+			</div>
+		</div>
+	</div>
+</section>

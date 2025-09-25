@@ -1,0 +1,29 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { SITE } from "@/config";
+
+export interface Props extends CollectionEntry<"companies">{
+    index: number;
+    numberOfSubsidiaries: number;
+    orbit: number;
+};
+
+const { data, index, orbit, numberOfSubsidiaries } = Astro.props;
+const { id, name, description, location } = data;
+
+// Calculate animation delay based on index and number of subsidiaries in the same orbit
+const delayValueZone1 = (index * SITE.orbit1RevolveTime ) / (numberOfSubsidiaries);
+const delayValueZone2 = (index * SITE.orbit2RevolveTime ) / (numberOfSubsidiaries);
+const delayValueZone3 = (index * SITE.orbit3RevolveTime ) / (numberOfSubsidiaries);
+
+---
+
+{(orbit === 1) &&
+        <div class="subsidiary zone-1" data-name={id} style={`animation-delay: -${delayValueZone1}s;`}>{name}</div>
+}
+{(orbit === 2) &&
+        <div class="subsidiary zone-2" data-name={id} style={`animation-delay: -${delayValueZone2}s;`}>{name}</div>
+}
+{(orbit === 3) &&
+        <div class="subsidiary zone-3" data-name={id} style={`animation-delay: -${delayValueZone3}s;`}>{name}</div>
+}

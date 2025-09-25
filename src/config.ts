@@ -9,4 +9,7 @@ export const SITE = {
   lightAndDarkMode: false,
   lang: "en", // html lang code. Set this empty and default will be "en"
   timezone: "Europe/Berlin", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  orbit1RevolveTime: 12, // in seconds, only used in view, not in CSS
+  orbit2RevolveTime: 16, // in seconds, only used in view, not in CSS
+  orbit3RevolveTime: 24, // in seconds, only used in view, not in CSS
 } as const;

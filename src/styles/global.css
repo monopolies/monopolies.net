@@ -10,6 +10,16 @@ html{
   --amazon: #FF9900;
   --apple: #A2AAAD;
   --microsoft: #7FBA00;
+
+  --orbit1-revolve-time: 12s; 
+  --orbit2-revolve-time: 16s; 
+  --orbit3-revolve-time: 24s; 
+  --orbit1-size: 150px;
+  --orbit2-size: 300px;
+  --orbit3-size: 450px;
+  --orbit1-amplitude: calc(var(--orbit1-size));
+  --orbit2-amplitude: calc(var(--orbit2-size));
+  --orbit3-amplitude: calc(var(--orbit3-size));
 } 
 
 @theme {
@@ -57,7 +67,7 @@ html{
   }
 
   h2{
-    @apply font-bold tracking-wide;
+    @apply font-bold tracking-wide text-4xl/22;
   }
 }
 
@@ -77,5 +87,65 @@ p{
   @apply mb-0 font-normal;
 }
 
+/*********** Orbiting animation ************/
 
+@property --angle {
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0deg;
+}
 
+@keyframes revolve {
+  from { --angle: 0deg; }
+  to { --angle: 360deg; }
+}
+
+.monopoly-container{
+  @apply justify-center items-center flex text-white text-center h-fit ;
+}
+
+.monopoly-zone{
+  @apply grid justify-center text-center items-center flex m-auto size-[calc(var(--orbit3-size)*2.2)] ;
+}
+
+.orbit-1{
+  @apply grid justify-center size-[calc(var(--orbit1-size)*2)] rounded-full place-items-center border-2 border-gray-200/20 ;
+}
+
+.orbit-2{
+  @apply grid justify-center size-[calc(var(--orbit2-size)*2)] rounded-full place-items-center border-2 border-gray-200/20 ;
+}
+
+.orbit-3{
+  @apply grid justify-center size-[calc(var(--orbit3-size)*2)] rounded-full place-items-center border-2 border-gray-200/20 ;
+}
+
+.orbit-center{
+  grid-area: 1 / 1;
+  @apply self-center justify-self-center text-center; 
+}
+
+.subsidiary{
+  grid-area: 1 / 1;
+}
+
+.subsidiary.zone-1{
+  --x: calc(cos(var(--angle)) * var(--orbit1-amplitude));
+  --y: calc(sin(var(--angle)) * var(--orbit1-amplitude));
+  translate: var(--x) var(--y);
+  animation: revolve var(--orbit1-revolve-time) linear infinite;
+}
+
+.subsidiary.zone-2{
+  --x: calc(sin(var(--angle)) * var(--orbit2-amplitude));
+  --y: calc(cos(var(--angle)) * var(--orbit2-amplitude));
+  translate: var(--x) var(--y);
+  animation: revolve var(--orbit2-revolve-time) linear infinite;
+}
+
+.subsidiary.zone-3{
+  --x: calc(cos(var(--angle)) * var(--orbit3-amplitude));
+  --y: calc(sin(var(--angle)) * var(--orbit3-amplitude));
+  translate: var(--x) var(--y);
+  animation: revolve var(--orbit3-revolve-time) linear infinite;
+}

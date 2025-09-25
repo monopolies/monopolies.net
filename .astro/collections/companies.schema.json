@@ -27,6 +27,9 @@
           "service": {
             "type": "string"
           },
+          "parent": {
+            "type": "string"
+          },
           "acquisition_date": {
             "type": "string"
           },
@@ -43,7 +46,9 @@
         "required": [
           "id",
           "name",
-          "service"
+          "service",
+          "parent",
+          "influence_zone"
         ],
         "additionalProperties": false
       }

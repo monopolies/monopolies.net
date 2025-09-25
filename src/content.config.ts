@@ -9,9 +9,10 @@ const companies = defineCollection({
       big_tech: z.boolean().default(false),
       description: z.string().optional(),
       service: z.string(),
+      parent: z.string(),
       acquisition_date: z.string().optional(),
       relationship: z.string().optional(),
-      influence_zone: z.number().optional(),
+      influence_zone: z.number(),
       location: z.string().optional(),
     }),
 });
